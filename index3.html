@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Your Business Name builds affordable, modern websites for small businesses and entrepreneurs. Responsive design, contact forms, SEO-ready HTML/CSS/JS. Delivered in 5–10 days." />
+  <meta name="keywords" content="small business website design, affordable web design, landing page design, responsive website, entrepreneur website, web design for small business, modern website, HTML CSS website, contact form website, professional website design, SEO website, mobile-friendly website, business website builder" />
+  <meta name="author" content="Your Business Name" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="theme-color" content="#ff6b35" />
+  <title>Your Business Name — Affordable Web Design for Small Businesses &amp; Entrepreneurs</title>
+
+  <!-- Open Graph / Social sharing -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Your Business Name — Web Design for Small Businesses" />
+  <meta property="og:description" content="Beautiful, responsive websites built for entrepreneurs and small businesses. Modern design, contact forms, and fast delivery." />
+  <meta property="og:image" content="assets3/img/hero.webp" />
+  <meta property="og:url" content="https://yourdomain.com" />
+  <meta property="og:site_name" content="Your Business Name" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Your Business Name — Web Design for Small Businesses" />
+  <meta name="twitter:description" content="Beautiful, responsive websites built for entrepreneurs and small businesses." />
+  <meta name="twitter:image" content="assets3/img/hero.webp" />
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://yourdomain.com" />
+
+  <!-- Structured Data — Local Business (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Your Business Name",
+    "description": "Affordable web design and digital strategy for small businesses and entrepreneurs.",
+    "url": "https://yourdomain.com",
+    "email": "your@email.com",
+    "telephone": "+10000000000",
+    "serviceArea": { "@type": "AdministrativeArea", "name": "Worldwide (Remote)" },
+    "priceRange": "$$",
+    "sameAs": [],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Web Design Services",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Landing Page Design", "description": "1–3 page responsive website with contact form" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Digital Strategy", "description": "SEO fundamentals, content planning, conversion optimization" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Growth Consulting", "description": "One-on-one business audit and digital roadmap" } }
+      ]
+    }
+  }
+  </script>
+
+  <!-- Preload hero -->
+  <link rel="preload" as="image" href="assets3/img/hero.webp" fetchpriority="high" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Fraunces:ital,opsz,wght@0,9..144,400;1,9..144,300;1,9..144,400;1,9..144,600&display=swap" />
+
+  <link rel="stylesheet" href="styles3.css?v=20260602" />
+</head>
+<body>
+
+  <!-- Skip link -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ======================== NAV ======================== -->
+  <header class="nav" id="nav" role="banner">
+    <div class="nav-inner container">
+      <a href="#" class="nav-logo" aria-label="Your Business Name — home">
+        <span class="nav-logo-mark" aria-hidden="true">✦</span>
+        <span>Your Business</span>
+      </a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#testimonials">Results</a>
+        <a href="#contact" class="btn btn-nav">Get in Touch</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav-mobile" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Mobile menu" hidden>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#testimonials">Results</a>
+      <a href="#contact">Get in Touch</a>
+    </div>
+  </header>
+
+  <!-- ======================== MAIN ======================== -->
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero" aria-label="Hero">
+      <div class="hero-mesh" aria-hidden="true"></div>
+      <div class="hero-grain" aria-hidden="true"></div>
+      <div class="hero-img-wrap" aria-hidden="true">
+        <img src="assets3/img/hero.webp" alt="" fetchpriority="high" loading="eager" class="hero-img" />
+        <div class="hero-img-overlay"></div>
+      </div>
+      <div class="hero-content container">
+        <p class="kicker reveal" data-delay="0">Web Design · Digital Strategy · Growth</p>
+        <h1 class="hero-title reveal" data-delay="80">
+          Build a business<br>
+          that <em>stands out</em>.
+        </h1>
+        <p class="hero-sub reveal" data-delay="160">
+          We craft modern websites and digital strategies for small businesses
+          and entrepreneurs who are ready to grow.
+        </p>
+        <div class="hero-actions reveal" data-delay="240">
+          <a href="#contact" class="btn btn-primary">Start Your Project</a>
+          <a href="#services" class="btn btn-ghost">See What We Do</a>
+        </div>
+        <div class="hero-stats reveal" data-delay="320">
+          <div class="stat">
+            <span class="stat-num" data-count-to="150">150</span><span>+</span>
+            <span class="stat-label">Projects Delivered</span>
+          </div>
+          <div class="stat-divider" aria-hidden="true"></div>
+          <div class="stat">
+            <span class="stat-num" data-count-to="98">98</span><span>%</span>
+            <span class="stat-label">Client Satisfaction</span>
+          </div>
+          <div class="stat-divider" aria-hidden="true"></div>
+          <div class="stat">
+            <span class="stat-num" data-count-to="8">8</span><span>y</span>
+            <span class="stat-label">Years of Experience</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-scroll-hint" aria-hidden="true">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee-wrap" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Web Design</span>
+        <span class="marquee-dot">✦</span>
+        <span>Responsive Sites</span>
+        <span class="marquee-dot">✦</span>
+        <span>SEO Strategy</span>
+        <span class="marquee-dot">✦</span>
+        <span>Contact Forms</span>
+        <span class="marquee-dot">✦</span>
+        <span>Modern UI</span>
+        <span class="marquee-dot">✦</span>
+        <span>Fast Delivery</span>
+        <span class="marquee-dot">✦</span>
+        <span>Small Business</span>
+        <span class="marquee-dot">✦</span>
+        <span>Entrepreneurs</span>
+        <span class="marquee-dot">✦</span>
+        <!-- duplicate for seamless loop -->
+        <span>Web Design</span>
+        <span class="marquee-dot">✦</span>
+        <span>Responsive Sites</span>
+        <span class="marquee-dot">✦</span>
+        <span>SEO Strategy</span>
+        <span class="marquee-dot">✦</span>
+        <span>Contact Forms</span>
+        <span class="marquee-dot">✦</span>
+        <span>Modern UI</span>
+        <span class="marquee-dot">✦</span>
+        <span>Fast Delivery</span>
+        <span class="marquee-dot">✦</span>
+        <span>Small Business</span>
+        <span class="marquee-dot">✦</span>
+        <span>Entrepreneurs</span>
+        <span class="marquee-dot">✦</span>
+      </div>
+    </div>
+
+    <!-- SERVICES -->
+    <section class="services section" id="services" aria-label="Services">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="kicker">What We Offer</p>
+          <h2>Everything you need<br>to <em>thrive online</em>.</h2>
+          <p class="section-sub">From a stunning landing page to a full digital strategy — we handle the tech so you can focus on your business.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card glass-card reveal" data-tilt data-delay="0">
+            <div class="service-icon" aria-hidden="true">🖥️</div>
+            <div class="service-img-wrap">
+              <img src="assets3/img/service-1.webp" alt="Laptop showing a beautiful web design" loading="lazy" decoding="async" />
+            </div>
+            <h3>Web Design</h3>
+            <p>Beautiful, fast, responsive websites built for modern browsers. From simple landing pages to multi-page sites — pixel-perfect on every screen.</p>
+            <ul class="service-features">
+              <li>1–3 pages</li>
+              <li>Mobile responsive</li>
+              <li>Modern UI / UX</li>
+            </ul>
+            <a href="#contact" class="service-link">Learn More →</a>
+          </article>
+
+          <article class="service-card glass-card reveal" data-tilt data-delay="100">
+            <div class="service-icon" aria-hidden="true">📊</div>
+            <div class="service-img-wrap">
+              <img src="assets3/img/service-2.webp" alt="Analytics dashboard showing growth metrics" loading="lazy" decoding="async" />
+            </div>
+            <h3>Digital Strategy</h3>
+            <p>A website without a strategy is a shop with no sign. We help you attract the right visitors, convert them to clients, and keep them coming back.</p>
+            <ul class="service-features">
+              <li>SEO fundamentals</li>
+              <li>Content planning</li>
+              <li>Conversion focus</li>
+            </ul>
+            <a href="#contact" class="service-link">Learn More →</a>
+          </article>
+
+          <article class="service-card glass-card reveal" data-tilt data-delay="200">
+            <div class="service-icon" aria-hidden="true">🚀</div>
+            <div class="service-img-wrap">
+              <img src="assets3/img/service-3.webp" alt="Business growth and success concept" loading="lazy" decoding="async" />
+            </div>
+            <h3>Growth Consulting</h3>
+            <p>One-on-one sessions to clarify your goals, audit your digital presence, and build a roadmap that actually works for your business model.</p>
+            <ul class="service-features">
+              <li>Business audit</li>
+              <li>Custom roadmap</li>
+              <li>Ongoing support</li>
+            </ul>
+            <a href="#contact" class="service-link">Learn More →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section" id="about" aria-label="About us">
+      <div class="container about-inner">
+        <div class="about-img-wrap reveal">
+          <img src="assets3/img/about.webp" alt="Confident entrepreneur working on their business" loading="lazy" decoding="async" />
+          <div class="about-badge glass-card">
+            <span class="badge-num" data-count-to="8">8</span>
+            <span class="badge-label">Years<br>delivering results</span>
+          </div>
+        </div>
+        <div class="about-content">
+          <p class="kicker reveal">Who We Are</p>
+          <h2 class="reveal">We believe every small<br>business deserves a <em>great website</em>.</h2>
+          <p class="reveal">Big agencies charge big fees for small businesses. We flip that. Our team focuses exclusively on entrepreneurs and small businesses — bringing agency-quality design at a price that makes sense.</p>
+          <p class="reveal">We don't just build websites. We build trust, visibility, and systems that grow with you. From your first project page to a full digital ecosystem — we're here for every step.</p>
+          <div class="about-values reveal">
+            <div class="value">
+              <span class="value-icon" aria-hidden="true">⚡</span>
+              <div>
+                <strong>Fast delivery</strong>
+                <span>Live in 5–10 business days</span>
+              </div>
+            </div>
+            <div class="value">
+              <span class="value-icon" aria-hidden="true">🎯</span>
+              <div>
+                <strong>Focused on results</strong>
+                <span>Designed to convert visitors</span>
+              </div>
+            </div>
+            <div class="value">
+              <span class="value-icon" aria-hidden="true">🤝</span>
+              <div>
+                <strong>Full transparency</strong>
+                <span>You own everything we build</span>
+              </div>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn-primary reveal">Work With Us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEAM / SOCIAL PROOF -->
+    <section class="team section" id="testimonials" aria-label="Testimonials and team">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="kicker">Client Results</p>
+          <h2>Real businesses,<br><em>real growth</em>.</h2>
+        </div>
+        <div class="team-img-wrap reveal">
+          <img src="assets3/img/team.webp" alt="Professional team of business consultants" loading="lazy" decoding="async" />
+          <div class="team-img-overlay"></div>
+        </div>
+        <div class="testimonials-grid">
+          <blockquote class="testimonial glass-card reveal" data-delay="0">
+            <p>"Working with Your Business completely transformed how people find my bakery online. Bookings went up 40% in the first month."</p>
+            <footer>
+              <strong>Sarah Chen</strong>
+              <span>Owner, The Golden Crumb Bakery</span>
+            </footer>
+          </blockquote>
+          <blockquote class="testimonial glass-card reveal" data-delay="100">
+            <p>"They built my portfolio site in a week. It looks incredible on every device and my clients always comment on how professional it feels."</p>
+            <footer>
+              <strong>Marcus Rivera</strong>
+              <span>Freelance Photographer</span>
+            </footer>
+          </blockquote>
+          <blockquote class="testimonial glass-card reveal" data-delay="200">
+            <p>"I was skeptical about investing in a website for my coaching practice. Six months later it's my #1 source of new clients."</p>
+            <footer>
+              <strong>Emily Watson</strong>
+              <span>Executive Coach</span>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="process section" aria-label="Our process">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="kicker">How It Works</p>
+          <h2>Simple process,<br><em>serious results</em>.</h2>
+        </div>
+        <div class="process-steps">
+          <div class="process-step reveal" data-delay="0">
+            <div class="step-num" aria-hidden="true">01</div>
+            <h3>Discovery Call</h3>
+            <p>We spend 30 minutes learning about your business, your goals, and your customers. No tech jargon — just a focused conversation.</p>
+          </div>
+          <div class="process-step reveal" data-delay="100">
+            <div class="step-num" aria-hidden="true">02</div>
+            <h3>Design & Build</h3>
+            <p>We design and develop your site using modern HTML, CSS, and JavaScript. You'll see a preview before anything goes live.</p>
+          </div>
+          <div class="process-step reveal" data-delay="200">
+            <div class="step-num" aria-hidden="true">03</div>
+            <h3>Launch & Grow</h3>
+            <p>We launch your site, hand over full ownership, and offer ongoing support as your business evolves. No lock-in contracts.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section" id="contact" aria-label="Contact form">
+      <div class="contact-mesh" aria-hidden="true"></div>
+      <div class="container contact-inner">
+        <div class="contact-content reveal">
+          <p class="kicker">Get in Touch</p>
+          <h2>Ready to grow<br>your <em>business online</em>?</h2>
+          <p>Fill in the form and we'll get back to you within one business day. No commitment required — just a conversation.</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <span class="contact-label">Email</span>
+              <span>Example</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-label">Phone number</span>
+              <span>Example</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-label">Location</span>
+              <span>Example</span>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-wrap reveal" data-delay="100">
+          <form class="contact-form glass-card" id="contact-form" novalidate aria-label="Contact form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name <span aria-label="required">*</span></label>
+                <input type="text" id="name" name="name" placeholder="Jane Smith" required autocomplete="name" />
+                <span class="field-error" role="alert" id="name-error" hidden></span>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address <span aria-label="required">*</span></label>
+                <input type="email" id="email" name="email" placeholder="jane@company.com" required autocomplete="email" />
+                <span class="field-error" role="alert" id="email-error" hidden></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="business">Business / Project Type</label>
+              <input type="text" id="business" name="business" placeholder="e.g. Bakery, Photography, Coaching…" autocomplete="organization" />
+            </div>
+            <div class="form-group">
+              <label for="service">Service You're Interested In</label>
+              <select id="service" name="service">
+                <option value="">Select a service…</option>
+                <option value="web-design">Web Design (1–3 pages)</option>
+                <option value="digital-strategy">Digital Strategy</option>
+                <option value="growth-consulting">Growth Consulting</option>
+                <option value="full-package">Full Package</option>
+                <option value="not-sure">Not sure — let's talk</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Tell Us About Your Project <span aria-label="required">*</span></label>
+              <textarea id="message" name="message" rows="4" placeholder="What's your goal? What does your business do? Any details help…" required></textarea>
+              <span class="field-error" role="alert" id="message-error" hidden></span>
+            </div>
+            <button type="submit" class="btn btn-primary btn-submit" id="form-submit">
+              <span class="btn-text">Send Message</span>
+              <span class="btn-spinner" aria-hidden="true" hidden></span>
+            </button>
+            <div class="form-success" id="form-success" hidden role="status" aria-live="polite">
+              <svg viewBox="0 0 52 52" class="success-checkmark" aria-hidden="true">
+                <circle class="checkmark-circle" cx="26" cy="26" r="25" fill="none"/>
+                <path class="checkmark-check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+              </svg>
+              <h3>Message sent!</h3>
+              <p>We'll be in touch within one business day.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="nav-logo" aria-label="Your Business Name — home">
+          <span class="nav-logo-mark" aria-hidden="true">✦</span>
+          <span>Your Business</span>
+        </a>
+        <p>Modern solutions for growing businesses.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#testimonials">Results</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="footer-copy">
+        <p>&copy; 2026 Your Business Name. All rights reserved.</p>
+        <p class="footer-credits-note">
+          <a href="assets3/credits.json" target="_blank" rel="noopener noreferrer" aria-label="Image credits (opens in new tab)">Image credits</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script defer src="lib3/gsap.min.js"></script>
+  <script defer src="lib3/ScrollTrigger.min.js"></script>
+  <script defer src="lib3/manifest.js"></script>
+  <script defer src="main3.js?v=20260602"></script>
+</body>
+</html>
